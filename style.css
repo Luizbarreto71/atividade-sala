@@ -1,0 +1,84 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+  
+.conteiner {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0  10px rgba(0, 0, 0, 0.1);
+}
+ 
+h2 {
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+ 
+label{
+    margin-bottom: 15px;
+    font-weight: bold;
+} 
+a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    color: #007BFF;
+}
+input {
+    margin-bottom: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+
+}
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ table {
+    width: 100%;
+    border-collapse: collapse;
+    
+ }
+  table,th,td {
+    border: 1px solid black;
+  }
+  th,td {
+    padding: 10px;
+    text-align: left;
+  }
+  button {
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+
+  }
+
+  .edit-btn {
+    background-color: #4CAF50;
+  }
+
+  .delete-btn {
+    background-color: #f44336;
+  }

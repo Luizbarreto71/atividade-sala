@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table border="1">
+      <caption>
+        Lista de usuarios
+      </caption>
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Email</th>
+          <th>Telefone</th>
+          <th>Data de Nasc.</th>
+          <th>Ações</th> 
+          
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Gabriel</td>
+          <td>Gabrielgamer@email</td>
+          <td>7981728322</td>
+          <td>12/04/2000</td>
+          <td>
+          <button class="edit-btn" onclick="editarUsuario('Gabriel')">Editar</button>
+          <button class="delete-btn" onclick="deletarUsuario('Gabriel')">Deletar</button>
+        </td>
+        </tr>
+        <tr>
+          <td>Luiz</td>
+          <td>luizhomosex@email</td>
+          <td>7999817181</td>
+          <td>12/04/2000</td>
+          <td>
+          <button  class="edit-btn" onclick="editarUsuario('Luiz')">Editar</button>
+          <button class="delete-btn" onclick="deletarUsuario('Luiz')">Deletar</button>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
